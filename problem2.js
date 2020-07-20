@@ -4,3 +4,8 @@
   [1,2,3].filter(i => i<=2) -> [3]
   [1,2,3].reduce((accumulator, currentValue) => accumulator + currentValue) -> 10
 **/
+function map(arr, cb) {}
+
+function filter(arr, cb) {}
+
+function reduce(arr, cb) {}
