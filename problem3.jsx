@@ -9,15 +9,11 @@ export default class App extends React.Component {
     };
   }
 
-  handleClick() {
-    this.setState({
-      counter: this.state.counter + 1,
-    });
-  }
+  handleCounter() {}
 
   render() {
     return (
-      <button onClick={this.handleClick}>Counter {this.state.counter}</button>
+      <button onClick={this.handleCounter}>Counter {this.state.counter}</button>
     );
   }
 }
